@@ -15,12 +15,3 @@ class Queue:
         return len(self.items)
     def viewAll(self):
         return self.items
-
-queue=Queue()
-queue.enqueue("A")
-queue.enqueue("B")
-queue.enqueue("C")
-print(queue.viewAll())
-print(queue.dequeue())
-
-    
